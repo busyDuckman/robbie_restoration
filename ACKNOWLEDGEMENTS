@@ -1,3 +1,13 @@
-I have made use of (or altered code from):
+This repo includes third-party code, which remains under its original licence:
 
-Harry R. Schwartz, GPLV3, https://github.com/hrs/markov-sentence-generator
+  - gears.scad (CAD/head_rotary_assembly/)
+    Dr Jörg Janssen, "Library for Involute Gears, Screws and Racks", v2.2.
+    Creative Commons Attribution-NonCommercial-ShareAlike.
+    head_gears_3.scad and the head gear .stl files are built on this library.
+
+  - canvas_ity.hpp (code_robbie/cpp/eye_manager/graphics/)
+    Andrew Kensler, https://github.com/a-e-k/canvas_ity, ISC licence.
+
+  - bcm2835 library (3rd_party/bcm2835/)
+    Mike McCauley, https://www.airspayce.com/mikem/bcm2835/, GPL v3.
+    Included as an unmodified source tarball.

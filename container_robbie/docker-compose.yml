@@ -31,6 +31,7 @@ services:
       - marytts
       - eye_manager
       - pi4_base
+    # privileged mode is needed for GPIO / SPI access; this runs on a dedicated device.
     privileged: true
     restart: no
     networks:
@@ -64,6 +65,7 @@ services:
       dockerfile: container_robbie/eye_manager/Dockerfile
     depends_on:
       - pi4_base_gpio
+    # privileged mode is needed for GPIO / SPI access; this runs on a dedicated device.
     privileged: true
     restart: on-failure
     networks:
